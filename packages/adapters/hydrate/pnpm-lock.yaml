@@ -1,50 +1,21 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 devDependencies:
   '@public-ui/components':
-    specifier: 1.5.0-rc.20
-    version: 1.5.0-rc.20
+    specifier: 1.7.20
+    version: 1.7.20
   rimraf:
     specifier: 3.0.2
     version: 3.0.2
 
 packages:
 
-  /@a11y-ui/core@1.0.2:
-    resolution: {integrity: sha512-RWGduw5+d/QgNfJogkuJPWvGxmWfa1qFleoAaBlt6UIPOaqP1eXY5ch06s+5yWfG93WYY2Otm3XQBV0RAGWGlA==}
-    dependencies:
-      adopted-style-sheets: 1.0.2
-    dev: true
-
-  /@babel/runtime@7.21.0:
-    resolution: {integrity: sha512-xwII0//EObnq89Ji5AKYQaRYiW/nZ3llSv29d49IuxPhKbtJoLP+9QUUZ4nVragQVtaVGeZrpB+ZtG/Pdy/POw==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      regenerator-runtime: 0.13.11
-    dev: true
-
-  /@floating-ui/core@1.2.6:
-    resolution: {integrity: sha512-EvYTiXet5XqweYGClEmpu3BoxmsQ4hkj3QaYA6qEnigCWffTP3vNRwBReTdrwDwo7OoJ3wM8Uoe9Uk4n+d4hfg==}
-    dev: true
-
-  /@floating-ui/dom@1.2.7:
-    resolution: {integrity: sha512-DyqylONj1ZaBnzj+uBnVfzdjjCkFCL2aA9ESHLyUOGSqb03RpbLMImP1ekIQXYs4KLk9jAjJfZAU8hXfWSahEg==}
-    dependencies:
-      '@floating-ui/core': 1.2.6
-    dev: true
-
-  /@public-ui/components@1.5.0-rc.20:
-    resolution: {integrity: sha512-7ZRDuyFrD8+8BnD16ZZatl7PA1On8eOCkkaGvs/VVLBDv9c63WFsG7vpWKY1/Au9UHZ5xzLDHK4aZ/Dv/pMYjg==}
-    dependencies:
-      '@a11y-ui/core': 1.0.2
-      '@floating-ui/dom': 1.2.7
-      i18next: 22.4.15
-    dev: true
-
-  /adopted-style-sheets@1.0.2:
-    resolution: {integrity: sha512-3+0pE9cocYLYuYa47zHzmAfeEPOaT1IpilwdPiLaow+YKJ2C9usVAcuDRsZqEJWsWIqJVALPL+FXeE0TGOvRyw==}
-    dependencies:
-      loglevel: 1.8.1
+  /@public-ui/components@1.7.20:
+    resolution: {integrity: sha512-wT0MTH/yadhOAnQMiQmOKczg8mI4+iTXP3VuMLeipDspLus5wIlEvK2pG3UXPxlsWIIqHlPldKziUYyGj7W2hQ==}
     dev: true
 
   /balanced-match@1.0.2:
@@ -77,12 +48,6 @@ packages:
       path-is-absolute: 1.0.1
     dev: true
 
-  /i18next@22.4.15:
-    resolution: {integrity: sha512-yYudtbFrrmWKLEhl6jvKUYyYunj4bTBCe2qIUYAxbXoPusY7YmdwPvOE6fx6UIfWvmlbCWDItr7wIs8KEBZ5Zg==}
-    dependencies:
-      '@babel/runtime': 7.21.0
-    dev: true
-
   /inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
     dependencies:
@@ -92,11 +57,6 @@ packages:
 
   /inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
-    dev: true
-
-  /loglevel@1.8.1:
-    resolution: {integrity: sha512-tCRIJM51SHjAayKwC+QAg8hT8vg6z7GSgLJKGvzuPb1Wc+hLzqtuVLxp6/HzSPOozuK+8ErAhy7U/sVzw8Dgfg==}
-    engines: {node: '>= 0.6.0'}
     dev: true
 
   /minimatch@3.1.2:
@@ -114,10 +74,6 @@ packages:
   /path-is-absolute@1.0.1:
     resolution: {integrity: sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==}
     engines: {node: '>=0.10.0'}
-    dev: true
-
-  /regenerator-runtime@0.13.11:
-    resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
     dev: true
 
   /rimraf@3.0.2:
